@@ -12,9 +12,12 @@
     }
 }
 
+.imagennosotros{background-image: url(../assets/imagenes/fondotrabaja.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
 
-
-body {
+.body_uno{
     background: linear-gradient(90deg, rgba(5, 5, 5, 0.589) 89%, rgba(0, 0, 0, 0.10547969187675066) 92%, rgba(0, 0, 0, 0.11) 97%), url(../assets/imagenes/fondogytm2.jp);
     color: white;
     background-repeat: no-repeat;
@@ -29,7 +32,7 @@ body {
 
 .cabecera {
     background-color: rgba(220, 95, 0, 0.938);
-    height: 14%;
+    
 }
 
 .nav {
@@ -44,9 +47,9 @@ body {
 
 }
 
-h1 {
+.h1clase {
     text-align: center;
-    color: black;
+    color: wh;
     font-size: 3rem;
 }
 
@@ -169,11 +172,11 @@ h1 {
 
 }
 
-.animate__animated.animate__backInLeft{animation-duration: 2s;}
+.animate__animated.animate__backInLeft{animation-duration: 1s;}
 
 
 
-.animate__animated.animate__backInRight{animation-duration: 3s;}
+.animate__animated.animate__backInRight{animation-duration: 2s;}
 
 .division__uno {
     font-size: 5rem;
@@ -245,4 +248,34 @@ h1 {
     font-size: 0.7rem;
 
 }
+
+
+.cuadro1{width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+
+.h1form{display: flex;
+text-align: center;
+justify-content: center;
+color: blanchedalmond;}
+
+
+.btn2{width: 300px;
+height: 60px;
+;}
+
+.form-control {
+
+width: 300px;
+}
+
+
+
+
+.marginform{margin-top: 8rem;
+height: 550px;}
+
+.form-label {color: blanchedalmond}
 

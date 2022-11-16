@@ -1,68 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alfa Fitness Gym</title>
-    <link rel="stylesheet" href="../CSS/styles.css">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfa Fitness Gym</title>
+  <!--bootstrap y style linkeado-->
+  <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="../CSS/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <header> 
-        
-       <section>
-            <img src="../assets/imagenes/Screenshot_20221016-034354.png" alt="fondo2"class="logo">
+  <section class="body_2">
 
-        <nav> 
-        <ul>
-            <li><a href="../index.html">inicio</a></li>
-            <li><a href="./nosotros.html">nosotros</a></li>
-            <li><a href="./clases.html">clases</a></li>
-            <li><a href="./tarifas.html">tarifas</a></li>
-            <li> <a href="./dondeestamos.html">donde estamos</a></li>
-             <li> <a href="./contacto.html">contacto</a></li>
-                 <li> <a href="./trabajaconnosotros.html">trabajá con nosotros</a></li>
-        </ul>
-        </nav>
 
-       </section>
-   
-   
-   </header>
-   <main>
-    <h1>VENÍ A TRABAJAR CON NOSOTROS</h1>
-    <form>
-        <P>ingresá tus datos para ser parte de nuestra comunidad.</P>
-        <input type="text" placeholder="Nombre y Apelido" required>
-        <input type="email" placeholder="Correo electrónico" required>
-        <input type="text" placeholder="Dirección" required>
-        <input type="text" placeholder="Nivel de Educación" size="70rem" required>
-        
-        
+    <header class="cabecera">
 
-        <label for="CV"> Adjuntá tu CV</label>
-        <input type="file"> 
-        
-        
-        <div>
-            <input type="submit" placeholder="Enviar Datos">
-            <input type="reset" placeholder="Limpiar">
-        </div> 
+
+      <img class="logo" src="../assets/imagenes/Screenshot_20221016-034354.png" alt="fondo2">
+
+      <nav class="nav">
 
 
 
+        <a class="link" href="/index.html">INICIO</a>
+        <a class="link" href="./nosotros.html">NOSOTROS</a>
+        <a class="link" href="./clases.html">CLASES</a>
+        <a class="link" href="./tarifas.html">TARIFAS</a>
+        <a class="link" href="./dondeestamos.html">DONDE ESTAMOS</a>
+        <a class="link" href="./contacto.html">CONTACTO</a>
+        <a class="link" href="./trabajaconnosotros.html">TRABAJÁ CON NOSOTROS</a>
 
 
-    </form>
-  
+
+      </nav>
+    </header>
+    <main>
+
+      
+      <section class="imagennosotros">
+        <h1 class="h1form"> Completá el formulario y sumate a nuestro equipo </h1>
+
+        <form class="marginform " >
+
+          <div class="mb-3 d-flex justify-content-center ">
+            <label for="exampleInputEmail1" class="form-label me-4 fs-4 ">Nombre y Apellido</label>
+            <input type="text" class="form-control  " id="exampleInputEmail1" aria-describedby="emailHelp">
+
+          </div>
+
+          <div class="mb-3 d-flex justify-content-center">
+            <label for="exampleInputPassword1" class="form-label me-4 fs-4">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputPassword1">
+          </div>
 
 
-   </main>
+          <div class="mb-3 d-flex justify-content-center">
+            <label for="exampleInputEmail1" class="form-label me-4 fs-4">Edad</label>
+            <input type="number" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
 
-   <footer >
-    <p>Todos los derechos reservados. Diseñado por Nahuel Zacarias </p>
-    </footer>
+          </div>
+
+
+          <div class="mb-3 d-flex justify-content-center">
+            <label for="exampleInputEmail1" class="form-label me-4 fs-4 ">Número de teléfono</label>
+            <input type="number" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
+
+
+          </div>
+
+
+          <div class="mb-3 form-check d-flex justify-content-center flex-row-reverse">
+            <input type="file" class="btn btn-success  " id="exampleCheck1">
+            <label class="form-check-label fs-3 me-4 form-label " for="exampleCheck1 ">Cargá tu CV</label>
+
+
+          </div>
+
+          <div class="d-flex justify-content-center mb-3">
+
+            <button type="submit" class="btn2 btn-success ">Enviar</button>
+            <button type="reset" class="btn2 btn-success">
+              <Borrar>Borrar
+            </button>
+            <div>
+
+
+
+
+            </div>
+        </form>
+
+
+
+
+
+
+      </section>
+
+
+
+
+
+    </main>
+
+    <footer>
+      <section class="footer">
+
+        <div class="footer_p">
+
+
+
+          <p> © TODOS LOS DERECHOS RESERVADOS 2022. DISEÑADO POR NAHUEL ZACARIAS </p>
+        </div>
+
+
+        <div class="iconos_redes">
+          <a href="https://www.instagram.com/alfa_fitness_benjamin/" target="blank"><img
+              src="../assets/imagenes/instagram-svgrepo-com.svg" alt="iconoft" class="icono_instagram"></a>
+          <a href="http://www.whatsapp.com" target="_blank"><img src="../assets/imagenes/whatsapp-svgrepo-com.svg"
+              alt="iconowhasapp" class="icono_whatsapp"></a>
+          <a href="http://www.facebook.com" target="_blank"><img src="..//assets/imagenes/facebook-svgrepo-com.svg"
+              alt="iconofacebook" class="icono_facebook"></a>
+
+
+
+        </div>
+
+
+      </section>
+  </section>
+  </footer>
 </body>
 
 </html>
