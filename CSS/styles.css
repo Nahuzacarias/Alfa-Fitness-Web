@@ -1,0 +1,248 @@
+@keyframes iconfloat {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-17px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+body {
+    background: linear-gradient(90deg, rgba(5, 5, 5, 0.589) 89%, rgba(0, 0, 0, 0.10547969187675066) 92%, rgba(0, 0, 0, 0.11) 97%), url(../assets/imagenes/fondogytm2.jp);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0%;
+    margin: 0%;
+    background-color: black;
+
+}
+
+
+
+.cabecera {
+    background-color: rgba(220, 95, 0, 0.938);
+    height: 14%;
+}
+
+.nav {
+    text-decoration: none;
+    ;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    ;
+
+
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+}
+
+
+.tittlebox__tittlebox1 {
+    font-size: 3rem;
+    ;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+.box1 {
+    background-color: rgba(255, 255, 255, 0.384);
+    color: black;
+    width: 25rem;
+    height: 30rem;
+    padding: 5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    margin-left: 8rem;
+    font-weight: 900;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0 0 10px grey;
+    backdrop-filter: blur (80px);
+
+}
+
+
+.box4 {
+    background-color: rgba(255, 255, 255, 0.384);
+    color: black;
+    width: 93rem;
+    height: 15rem;
+    padding: 5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    display: block;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0 0 10px grey;
+    backdrop-filter: blur (80px);
+
+}
+
+.disp {
+    display: inline-flex;
+}
+
+
+.logo {
+    width: 10rem;
+    ;
+
+}
+
+.inscribite{font-size: 1.5rem;font-family: 'Kanit', sans-serif;margin-top: 2rem;
+    }
+
+    .inscribite:hover{box-shadow: 2px 1px 35px 2px rgba(245,11,11,0.56);
+        -webkit-box-shadow: 2px 1px 35px 2px rgba(245,11,11,0.56);
+        -moz-box-shadow: 2px 1px 35px 2px rgba(245,11,11,0.56);
+        transition: 1s;
+    }
+
+
+.link {
+    
+
+    width: 160px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(5, 4, 4);
+    box-shadow: 0 0 20px rgb(211, 87, 16);
+    backdrop-filter: blur (80px);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+
+.principal {
+    display: flex;
+
+
+}
+
+
+
+.img {
+    height: 45rem;
+    width: 35rem;
+    
+    
+}
+
+
+.division {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.animate__animated.animate__backInLeft{animation-duration: 2s;}
+
+
+
+.animate__animated.animate__backInRight{animation-duration: 3s;}
+
+.division__uno {
+    font-size: 5rem;
+}
+
+
+.division__dos{margin-left: 10rem;border: none;
+    margin-top: 0.5rem
+    ;
+
+
+
+}
+.division__uno__dos {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family: 'Noto Sans JP', sans-serif;
+
+
+}
+
+.doce {
+    height: 3rem;
+}
+
+.trece {
+    height: 3rem;
+}
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(220, 95, 0, 0.938);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+
+}
+
+.iconos_redes .icono_instagram {
+    width: 1.5rem;
+    margin-right: 1rem;
+    animation: iconfloat infinite 4s ease-in-out;
+
+
+
+}
+
+.icono_whatsapp {
+    width: 1.5rem;
+    margin-right: 1rem;
+    animation: iconfloat infinite 4s ease-in-out;
+    animation-delay: 0.5s;
+
+
+}
+
+.icono_facebook {
+    width: 1.5rem;
+    animation: iconfloat infinite 4s ease-in-out;
+    animation-delay: 1s;
+
+}
+
+.footer_p {
+    margin-right: 3rem;
+    font-size: 0.7rem;
+
+}
+
