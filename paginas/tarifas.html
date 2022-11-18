@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alfa Fitness Gym</title>
+
+
+  <!--bootstrap y style linkeado-->
+  <link rel="stylesheet" href="../CSS/bootstrap.min.css">
   <link rel="stylesheet" href="../CSS/styles.css">
 
 
@@ -14,108 +18,132 @@
 
 <!--Formularios en contacto.html-->
 
+
 <body>
   <section class="body_uno">
-    <header class="cabecera">
+    <header class="cabecera ">
 
 
-        <img class="logo" src="../assets/imagenes/Screenshot_20221016-034354.png" alt="fondo2">
+      <img class="logo" src="../assets/imagenes/Screenshot_20221016-034354.png" alt="fondo2">
 
-        <nav class="nav">
+      <nav class="navbar navbar-expand-lg cabecera ">
+        <div class="container-fluid navbar-light cabecera ">
+          <a class="navbar-brand text-light nav-item" href="../index.html">INICIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ">
+
+              <li class="nav-item ">
+                <a class="nav-link text-light " aria-current="page" href="./nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./clases.html">CLASES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./tarifas.html">TARIFAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./dondeestamos.html">DONDE ESTAMOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./trabajaconnosotros.html">TRABAJÁ CON NOSOTROS</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
 
 
-          <a class="link" href="/index.html">INICIO</a>
-          <a class="link" href="./nosotros.html">NOSOTROS</a>
-          <a class="link" href="./clases.html">CLASES</a>
-          <a class="link" href="./tarifas.html">TARIFAS</a>
-          <a class="link" href="./dondeestamos.html">DONDE ESTAMOS</a>
-          <a class="link" href="./contacto.html">CONTACTO</a>
-          <a class="link" href="./trabajaconnosotros.html">TRABAJÁ CON NOSOTROS</a>
-
-
-
-        </nav>
-  </header>
-  <main>
     <h1 class="h1clase">PODÉS DISFRUTAR DE NUESTROS PLANES Y PROMOCIONES.</h1>
 
-    <div class="disp">
 
-      <div class="box1">
-        <h3 class="tittlebox__tittlebox1">PLAN MENSUAL</h3>
-        <p>CON UNA TARIFA DE $2000 POR MES, INCLUYE ACCESO LIBRE A TODOS LOS EQUIPOS DEL GIMNASIO</p>
+    <main>
+
+      <div class="container">
+        <div class="row ">
+          <div class=" col-lg-4 col-md-12 box1">
+            <p>CON UNA TARIFA DE $2000 POR MES, INCLUYE ACCESO LIBRE A TODOS LOS EQUIPOS DEL
+              GIMNASIO</p>
+          </div>
+          <div class="col-lg-4 col-md-12 box1">
+            <p></p>CON UNA TARIFA DE $10000 SEMESTRAL, INCLUYE ACCESO LIBRE A TODOS LOS EQUIPOS DEL
+            GIMNASIO</p>
+          </div>
+          <div class="col-lg-4 col-md-12 box1">
+            <p></p>CON UNA TARIFA DE $18000 POR AÑO, INCLUYE ACCESO LIBRE A TODOS LOS EQUIPOS DEL
+            GIMNASIO</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 box4 ">
+            <h3 class="tittlebox_tittlebox2">PLAN ALFA SUPERIOR</h3>
+            <P>CON UNA TARIFA DE $3000 POR MES, INCLUYE 2 CLASES A ELECCIÓN Y ACCESO LIBRE A TODOS LOS EQUIPOS DEL
+              GIMNASIO
+            </P>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 col-lg-12 box4">
+            <h3 class="tittlebox_tittlebox2">PLAN ALFA FULL</h3>
+            <P>CON UNA TARIFA DE $4000 POR MES, INCLUYE 3 CLASES A ELECCIÓN Y ACCESO LIBRE A TODOS LOS EQUIPOS DEL
+              GIMNASIO
+            </P>
+          </div>
+
+        </div>
       </div>
 
-    </div>
-
-    <section class="disp">
-
-      <div class="box1">
-        <h3 class="tittlebox__tittlebox1">PLAN SEMESTRAL</h3>
-
-        <p>CON UNA TARIFA DE $10000 SEMESTRAL, INCLUYE ACCESO LIBRE A TODOS LOS EQUIPOS DEL GIMNASIO </p>
-
       </div>
 
-    </section>
-
-    <section class="disp">
-
-      <div class="box1">
-        <h3 class="tittlebox__tittlebox1">PLAN ANUAL</h3>
-        <p>CON UNA TARIFA DE $18000 POR AÑO, INCLUYE ACCESO LIBRE A TODOS LOS EQUIPOS DEL GIMNASIO</p>
-      </div>
-
-    </section>
-
-    <section>
-
-      <div class="box4">
-        <h3 class="tittlebox_tittlebox2">PLAN ALFA SUPERIOR</h3>
-        <P>CON UNA TARIFA DE $3000 POR MES, INCLUYE 2 CLASES A ELECCIÓN Y ACCESO LIBRE A TODOS LOS EQUIPOS DEL GIMNASIO
-        </P>
-      </div>
-    </section>
-
-
-    <section>
-      <div class="box4">
-        <h3 class="tittlebox_tittlebox2">PLAN ALFA FULL</h3>
-        <P>CON UNA TARIFA DE $4000 POR MES, INCLUYE 3 CLASES A ELECCIÓN Y ACCESO LIBRE A TODOS LOS EQUIPOS DEL GIMNASIO
-        </P>
-      </div>
-    </section>
-
-  </main>
-  <footer>
-    <section class="footer">
+    </main>
+    <footer>
+      <section class="footer">
 
         <div class="footer_p">
 
 
+      </section>
+
+      <footer>
+        <section class="footer">
+
+          <div class="footer_p">
+
+
 
             <p> © TODOS LOS DERECHOS RESERVADOS 2022. DISEÑADO POR NAHUEL ZACARIAS </p>
-        </div>
+          </div>
 
 
-        <div class="iconos_redes">
+          <div class="iconos_redes">
             <a href="https://www.instagram.com/alfa_fitness_benjamin/" target="blank"><img
-                    src="../assets/imagenes/instagram-svgrepo-com.svg" alt="iconoft" class="icono_instagram"></a>
-            <a href="http://www.whatsapp.com" target="_blank"><img
-                    src="../assets/imagenes/whatsapp-svgrepo-com.svg" alt="iconowhasapp"
-                    class="icono_whatsapp"></a>
-            <a href="http://www.facebook.com" target="_blank"><img
-                    src="..//assets/imagenes/facebook-svgrepo-com.svg" alt="iconofacebook"
-                    class="icono_facebook"></a>
+                src="../assets/imagenes/instagram-svgrepo-com.svg" alt="iconoft" class="icono_instagram"></a>
+            <a href="http://www.whatsapp.com" target="_blank"><img src="../assets/imagenes/whatsapp-svgrepo-com.svg"
+                alt="iconowhasapp" class="icono_whatsapp"></a>
+            <a href="http://www.facebook.com" target="_blank"><img src="..//assets/imagenes/facebook-svgrepo-com.svg"
+                alt="iconofacebook" class="icono_facebook"></a>
 
 
 
-        </div>
+          </div>
 
 
-    </section>
-</footer>
+        </section>
+      </footer>
+      <script src="../Js/bootstrap.bundle.min.js"></script>
+        
+  </section>
 </body>
 
 
