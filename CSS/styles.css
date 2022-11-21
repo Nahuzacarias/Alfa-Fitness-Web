@@ -17,6 +17,7 @@
     background-image: url(../assets/imagenes/fondotrabaja.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .body_uno {
@@ -93,6 +94,35 @@
     border: 1px solid;
     box-shadow: 0 0 10px grey;
     backdrop-filter: blur (80px);
+}
+
+.box5 {
+    background-color: rgba(9, 228, 28, 0.384);
+    color: black;
+    width: 93rem;
+    height: 15rem;
+    padding: 5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    display: block;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0 0 10px grey;
+    backdrop-filter: blur (80px);
+
+
+}
+
+.body3 {
+    background-image: url(../assets/imagenes/fondo6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
 
 }
 
@@ -241,6 +271,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 
@@ -297,12 +328,34 @@
     .footer_p {
         margin-right: 0rem;
     }
-    
+
+
 
 
 }
-.nosotros_clase_p1 {
+
+@media screen and (max-width: 520px) {
+
+    .mediaq {
+        display: flex;
+        flex-wrap: wrap;
+        height: 7vh;
+    }
+}
 
 
-    
+.tituloclase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.teclas {
+
+    ;
+
+
+
+
 }
