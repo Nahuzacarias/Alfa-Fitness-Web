@@ -12,88 +12,139 @@
     }
 }
 
+@media screen and (max-width: 634px) {
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        height: 15vh;
+    }
 
-.imagennosotros {
-    background-image: url(../assets/imagenes/fondotrabaja.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    .footer_p {
+        margin-right: 0rem;
+    }
+}
 
+@media screen and (max-width: 520px) {
+    .mediaq {
+        display: flex;
+        flex-wrap: wrap;
+        height: 7vh;
+    }
 }
 
 .body_uno {
-    background: linear-gradient(90deg, rgba(5, 5, 5, 0.589) 89%, rgba(0, 0, 0, 0.10547969187675066) 92%, rgba(0, 0, 0, 0.11) 97%), url(../assets/imagenes/fondogytm2.jp);
+    background: linear-gradient(90deg, rgba(5, 5, 5, 0.589) 89%, rgba(0, 0, 0, 0.10548) 92%, rgba(0, 0, 0, 0.11) 97%), url(../assets/imagenes/fondogytm2.jp);
     color: white;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 0%;
     margin: 0%;
     background-color: black;
-
 }
-
-
 
 .cabecera {
     background-color: rgba(220, 95, 0, 0.938);
     margin: 0%;
     padding: 0%;
-
 }
 
-
-.h1clase {
-    text-align: center;
-    font-size: 3rem;
-}
-
-
-.tittlebox_tittlebox2 {
+.principal {
     display: flex;
-    font-size: 2rem;
-    ;
-    text-align: center;
+}
+
+.principal .division {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
     justify-content: center;
-    overflow-wrap: break-word;
-
+    align-items: center;
 }
 
-.nav-item {
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-
-
+.principal .division .animate__animated.animate__backInLeft {
+    animation-duration: 1s;
 }
 
-.box1 {
-    background: linear-gradient(78deg, rgba(78, 236, 12, 0.75) 20%, rgba(167, 255, 0, 0.66) 80%);
-    color: black;
-
-    padding: 5rem;
-    box-sizing: border-box;
-    border-radius: 1rem;
-    font-size: 1.6rem;
-    font-weight: 900;
-    border: 1px solid;
-    box-shadow: 0 0 10px grey;
-    backdrop-filter: blur (80px);
+.principal .division .division__uno {
+    font-size: 5rem;
 }
 
-.box4 {
-    background: linear-gradient(90deg, rgba(255, 0, 116, 0.57) 0%, #fffb00 20%);
-    color: black;
-    width: 93rem;
+.principal .division .inscribite {
+    font-size: 1.5rem;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 2rem;
+}
 
-    padding: 5rem;
-    box-sizing: border-box;
-    border-radius: 1rem;
-    font-size: 1.3rem;
-    margin-left: 0;
-    margin-top: 3rem;
-    display: block;
+.inscribite:hover {
+    box-shadow: 2px 1px 35px 2px rgba(245, 11, 11, 0.56);
+    -webkit-box-shadow: 2px 1px 35px 2px rgba(245, 11, 11, 0.56);
+    -moz-box-shadow: 2px 1px 35px 2px rgba(245, 11, 11, 0.56);
+    transition: 1s;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.division__uno__dos {
+    font-size: 1.5rem;
     text-align: center;
-    border: 1px solid;
-    box-shadow: 0 0 10px grey;
-    backdrop-filter: blur (80px);
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.division__dos {
+    margin-left: 10rem;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+.animate__animated.animate__backInRight {
+    animation-duration: 2s;
+}
+
+.img {
+    height: 45rem;
+    width: 35rem;
+}
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(220, 95, 0, 0.938);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+}
+
+.footer .footer_p {
+    margin-right: 3rem;
+    font-size: 0.7rem;
+}
+
+.footer .iconos_redes .icono_instagram {
+    width: 1.5rem;
+    margin-right: 1rem;
+    animation: iconfloat infinite 4s ease-in-out;
+}
+
+.footer .icono_whatsapp {
+    width: 1.5rem;
+    margin-right: 1rem;
+    animation: iconfloat infinite 4s ease-in-out;
+    animation-delay: 0.5s;
+}
+
+.footer .icono_facebook {
+    width: 1.5rem;
+    animation: iconfloat infinite 4s ease-in-out;
+    animation-delay: 1s;
+}
+
+.body3 {
+    background-image: url(../assets/imagenes/fondo6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .box5 {
@@ -111,67 +162,223 @@
     text-align: center;
     border: 1px solid;
     box-shadow: 0 0 10px grey;
+    backdrop-filter: blur 80px;
+}
+
+.box5 .nosotros_clase_titulo {
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+
+.cuadro1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagennosotros {
+    background-image: url(../assets/imagenes/fondotrabaja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagennosotros .h1form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: blanchedalmond;
+}
+
+.imagennosotros .marginform {
+    margin-top: 8rem;
+    height: 550px;
+}
+
+.imagennosotros .form-control {
+    width: 300px;
+}
+
+.imagennosotros .btn2 {
+    width: 300px;
+    height: 60px;
+}
+
+.imagennosotros .form-label {
+    color: blanchedalmond;
+}
+
+.imagennosotros .ajuste {
+    margin-left: 120px;
+}
+
+.teclas {
+    height: 100vh;
+}
+
+.h1clase {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.box1 {
+    background: linear-gradient(78deg, rgba(78, 236, 12, 0.75) 20%, rgba(167, 255, 0, 0.66) 80%);
+    color: black;
+    padding: 5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+    border: 1px solid;
+    box-shadow: 0 0 10px grey;
+    backdrop-filter: blur 80px;
+}
+
+.tittlebox_tittlebox2 {
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+}
+
+.box4 {
+    background: linear-gradient(90deg, rgba(255, 0, 116, 0.57) 0%, #fffb00 20%);
+    color: black;
+    width: 93rem;
+    padding: 5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    margin-left: 0;
+    margin-top: 3rem;
+    display: block;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0 0 10px grey;
+    backdrop-filter: blur 80px;
+}
+
+.nav-item {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+.body_uno {
+    background: linear-gradient(90deg, rgba(5, 5, 5, 0.589) 89%, rgba(0, 0, 0, 0.10547969187675066) 92%, rgba(0, 0, 0, 0.11) 97%), url(../assets/imagenes/fondogytm2.jp);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0%;
+    margin: 0%;
+    background-color: black;
+
+}*/
+/*
+.cabecera {
+    background-color: rgba(220, 95, 0, 0.938);
+    margin: 0%;
+    padding: 0%;
+
+}*/
+/*.h1clase {
+    text-align: center;
+    font-size: 3rem;
+}*/
+/*.tittlebox_tittlebox2 {
+    display: flex;
+    font-size: 2rem;
+    ;
+    text-align: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+
+}*/
+/*.nav-item {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+/*.box1 {
+    background: linear-gradient(78deg, rgba(78, 236, 12, 0.75) 20%, rgba(167, 255, 0, 0.66) 80%);
+    color: black;
+
+    padding: 5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+    border: 1px solid;
+    box-shadow: 0 0 10px grey;
+    backdrop-filter: blur (80px);
+}*/
+/*.box4 {
+    background: linear-gradient(90deg, rgba(255, 0, 116, 0.57) 0%, #fffb00 20%);
+    color: black;
+    width: 93rem;
+
+    padding: 5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    margin-left: 0;
+    margin-top: 3rem;
+    display: block;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0 0 10px grey;
+    backdrop-filter: blur (80px);
+}*/
+/*.box5 {
+    background-color: rgba(9, 228, 28, 0.384);
+    color: black;
+    width: 93rem;
+    height: 15rem;
+    padding: 5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    display: block;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0 0 10px grey;
     backdrop-filter: blur (80px);
 
 
-}
-
-.body3 {
+}*/
+/*.body3 {
     background-image: url(../assets/imagenes/fondo6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
-
-
-
-}
-
-.disp {
-    display: inline-flex;
-}
-
-
-
-.logo {
-    width: 10rem;
-    ;
-
-}
-
-.inscribite {
+}*/
+/*.inscribite {
     font-size: 1.5rem;
     font-family: 'Kanit', sans-serif;
     margin-top: 2rem;
-}
-
-.inscribite:hover {
+}*/
+/*.inscribite:hover {
     box-shadow: 2px 1px 35px 2px rgba(245, 11, 11, 0.56);
     -webkit-box-shadow: 2px 1px 35px 2px rgba(245, 11, 11, 0.56);
     -moz-box-shadow: 2px 1px 35px 2px rgba(245, 11, 11, 0.56);
     transition: 1s;
-}
-
-
-
-
-
-.principal {
+}*/
+/*.principal {
     display: flex;
 
 
 }
-
-
-
-.img {
+*/
+/*.img {
     height: 45rem;
     width: 35rem;
 
 
-}
-
-
-.division {
+}*/
+/*.division {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -180,33 +387,25 @@
 
 
 
-}
-
-.animate__animated.animate__backInLeft {
+}*/
+/*.animate__animated.animate__backInLeft {
     animation-duration: 1s;
-}
-
-
-
-.animate__animated.animate__backInRight {
+}*/
+/*.animate__animated.animate__backInRight {
     animation-duration: 2s;
-}
-
-.division__uno {
+}*/
+/*.division__uno {
     font-size: 5rem;
-}
-
-
-.division__dos {
+}*/
+/*.division__dos {
     margin-left: 10rem;
     border: none;
     margin-top: 0.5rem;
 
 
 
-}
-
-.division__uno__dos {
+}*/
+/*.division__uno__dos {
     font-size: 1.5rem;
     text-align: center;
     padding-left: 4rem;
@@ -214,17 +413,8 @@
     font-family: 'Noto Sans JP', sans-serif;
 
 
-}
-
-.doce {
-    height: 3rem;
-}
-
-.trece {
-    height: 3rem;
-}
-
-.footer {
+}*/
+/*.footer {
     font-family: 'Poppins', sans-serif;
     background-color: rgba(220, 95, 0, 0.938);
     display: flex;
@@ -232,18 +422,16 @@
     justify-content: center;
     height: 9vh;
 
-}
-
-.iconos_redes .icono_instagram {
+}*/
+/*.iconos_redes .icono_instagram {
     width: 1.5rem;
     margin-right: 1rem;
     animation: iconfloat infinite 4s ease-in-out;
 
 
 
-}
-
-.icono_whatsapp {
+}*/
+/*.icono_whatsapp {
     width: 1.5rem;
     margin-right: 1rem;
     animation: iconfloat infinite 4s ease-in-out;
@@ -257,102 +445,52 @@
     animation: iconfloat infinite 4s ease-in-out;
     animation-delay: 1s;
 
-}
-
-.footer_p {
+}*/
+/*.footer_p {
     margin-right: 3rem;
     font-size: 0.7rem;
 
-}
-
-
-.cuadro1 {
+}*/
+/*.cuadro1 {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 
-}
-
-
-.h1form {
+}*/
+/*.h1form {
     display: flex;
     text-align: center;
     justify-content: center;
     color: blanchedalmond;
-}
-
-
-.btn2 {
+}*/
+/*.btn2 {
     width: 300px;
     height: 60px;
     ;
-}
-
-.form-control {
+}*/
+/*.form-control {
 
     width: 300px;
-}
-
-
-
-
-.marginform {
+}*/
+/*.marginform {
     margin-top: 8rem;
     height: 550px;
-}
-
-.form-label {
+}*/
+/*.form-label {
     color: blanchedalmond
 }
-
+*/
+/*
 .ajuste {
     margin-left: 120px;
-}
-
-.nosotros_clase_titulo {
+}*/
+/*.nosotros_clase_titulo {
     display: flex;
     justify-content: center;
     color: green;
-}
-
-
-
-@media screen and (max-width: 634px) {
-    .footer {
-        display: flex;
-        flex-wrap: wrap;
-        height: 15vh;
-    }
-
-    .footer_p {
-        margin-right: 0rem;
-    }
-
-
-
-
-}
-
-@media screen and (max-width: 520px) {
-
-    .mediaq {
-        display: flex;
-        flex-wrap: wrap;
-        height: 7vh;
-    }
-}
-
-
-.tituloclase {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.teclas{
+}*/
+/*.teclas {
 
     height: 100vh;
-}
-
+}*/
