@@ -200,27 +200,25 @@
 
 .footer {
     font-family: 'Poppins', sans-serif;
-    background-color:orange;
+    background-color: rgba(220, 95, 0, 0.938);
     display: flex;
     align-items: center;
     justify-content: center;
     height: 9vh;
-    
-    width: 1.5rem;
-    margin-right: 1rem;
-    animation: iconfloat infinite 4s ease-in-out;
-    animation-delay: 0.5s;
+
 }
 
-.footer .footer_p {
+.footer_p{
     margin-right: 3rem;
     font-size: 0.7rem;
+
 }
 
-.footer .iconos_redes .icono_instagram {
+.iconos_redes .icono_instagram {
     width: 1.5rem;
     margin-right: 1rem;
     animation: iconfloat infinite 4s ease-in-out;
+
 }
 
 @keyframes iconfloat {
@@ -257,8 +255,21 @@
     }
 }
 
-.iconos_redes {
-    background-color: aqua;
+
+.icono_whatsapp {
+    width: 1.5rem;
+    margin-right: 1rem;
+    animation: iconfloat infinite 4s ease-in-out;
+    animation-delay: 0.5s;
+
+
+}
+
+.icono_facebook {
+    width: 1.5rem;
+    animation: iconfloat infinite 4s ease-in-out;
+    animation-delay: 1s;
+
 }
 
 /*
