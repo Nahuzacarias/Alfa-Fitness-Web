@@ -1,10 +1,10 @@
 .footer {
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(220, 95, 0, 0.938);
+    background-color: $color-naranja;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 9vh;
+    height: 9vh;}
 
     .footer_p {
         margin-right: 3rem;
@@ -22,16 +22,11 @@
         width: 1.5rem;
         margin-right: 1rem;
         animation: iconfloat infinite 4s ease-in-out;
-        animation-delay: 0.5s;
-
-
-    }
+        animation-delay: 0.5s; }
 
     .icono_facebook {
-        width: 1.5rem;
-        animation: iconfloat infinite 4s ease-in-out;
-        animation-delay: 1s;
 
-    }
-
-}
+    width: 1.5rem;
+    margin-right: 1rem;
+    animation: iconfloat infinite 4s ease-in-out;
+    animation-delay: 1s;}
