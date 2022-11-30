@@ -6,6 +6,13 @@
     justify-content: center;
     height: 9vh;
 }
+@mixin icono { 
+    width: 1.5rem;
+    margin-right: 1rem;
+    animation: iconfloat infinite 4s ease-in-out;
+    
+}
+
 
 .footer_p {
     margin-right: 3rem;
@@ -13,23 +20,20 @@
 
 }
 
-.iconos_redes .icono_instagram {
-    width: 1.5rem;
-    margin-right: 1rem;
-    animation: iconfloat infinite 4s ease-in-out;
+.icono_instagram {
+    @include icono;
+    
 }
 
 .icono_whatsapp {
-    width: 1.5rem;
-    margin-right: 1rem;
-    animation: iconfloat infinite 4s ease-in-out;
+    @include icono;
     animation-delay: 0.5s;
 }
 
 .icono_facebook {
 
-    width: 1.5rem;
-    margin-right: 1rem;
-    animation: iconfloat infinite 4s ease-in-out;
+    @include icono;
     animation-delay: 1s;
 }
+
+
