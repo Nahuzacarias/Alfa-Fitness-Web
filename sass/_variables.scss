@@ -1,2 +1,28 @@
 $color-naranja:  rgba(220, 106, 0, 0.938);
 $color-negro: black;
+$ancho :100%;
+$borde: 5px solid black;
+$bg-color-green:green;
+$total-columnas : 10;
+$tamaño-fuente: 12px;
+$fuentes_negrita: bold;
+$borde-principal: 1px solid black;
+$flex : flex;
+$center:center;
+$row: row;
+$space-around :space-around;
+$space-between:space-between;
+$column:column;
+$space-evenly:space-evenly;
+$primary-color: pink;
+$text-align: center;
+
+$map-flex:(
+    flex: flex,
+    row: row,
+    column: column,
+    space-around: space-around,
+    space-between: space-between,
+    space-evenly: space-evenly,
+    center: center,
+);
