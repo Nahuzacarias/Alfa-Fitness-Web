@@ -24,26 +24,6 @@
     }
 
 }
-
-@mixin flexwrap {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-@mixin centrado {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@mixin icono { 
-    width: 1.5rem;
-    margin-right: 1rem;
-    animation: iconfloat infinite 4s ease-in-out;
-    
-}
-
 @media screen and (max-width: 520px) {
 
     .mediaq {
