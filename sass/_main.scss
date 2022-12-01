@@ -74,7 +74,7 @@
 
 
 .img {
-    height: 45rem;
+
     width: 35rem;
 
 }
@@ -83,14 +83,11 @@
     background-color: rgba(9, 228, 28, 0.384);
     color: black;
     width: 93rem;
-    height: 15rem;
     padding: 5rem;
     box-sizing: border-box;
     border-radius: 1rem;
     font-size: 1.3rem;
-    margin-left: 8rem;
     margin-top: 5rem;
-    display: block;
     text-align: center;
     border: 1px solid;
     box-shadow: 0 0 10px grey;
@@ -102,6 +99,21 @@
         color: green;
     }
 
+}
+
+.box4 {
+    background: linear-gradient(90deg, rgba(255, 0, 116, 0.57) 0%, #fffb00 20%);
+    color: black;
+    width: 93rem;
+    padding: 5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0 0 10px grey;
+    backdrop-filter: blur (80px);
 }
 
 
@@ -158,6 +170,17 @@
 .h1clase {
     text-align: center;
     font-size: 3rem;
+    color: $titulo;
+    margin-top: 3rem;
+}
+
+.separacion {
+    margin-bottom: 10px;
+
+}
+
+.h1dondeestamos {
+    color: $titulo;
 }
 
 .box1 {
@@ -183,25 +206,8 @@
 
 }
 
-.box4 {
-    background: linear-gradient(90deg, rgba(255, 0, 116, 0.57) 0%, #fffb00 20%);
-    color: black;
-    width: 93rem;
-
-    padding: 5rem;
-    box-sizing: border-box;
-    border-radius: 1rem;
-    font-size: 1.3rem;
-    margin-left: 0;
-    margin-top: 3rem;
-    display: block;
-    text-align: center;
-    border: 1px solid;
-    box-shadow: 0 0 10px grey;
-    backdrop-filter: blur (80px);
-}
-
 .nav-item {
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+

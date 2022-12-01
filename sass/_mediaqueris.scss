@@ -25,11 +25,73 @@
 
 }
 
+@mixin flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin centrado {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin icono { 
+    width: 1.5rem;
+    margin-right: 1rem;
+    animation: iconfloat infinite 4s ease-in-out;
+    
+}
+
 @media screen and (max-width: 520px) {
 
     .mediaq {
-        display: flex;
-        flex-wrap: wrap;
+        @include flexwrap;
         height: 7vh;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    .cuadro1 {
+        @include flexwrap;
+    }
+
+
+}
+
+@media screen and (max-width: 1050px) {
+    .principal {
+        @include flexwrap;
+        @include centrado;
+    }
+
+    .division {
+        @include centrado;
+    }
+
+    .division__uno {
+        @include centrado;
+        font-size: 3rem;
+    }
+
+    .division__dos {
+        margin-left: 1rem;
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .division__uno {
+        @include centrado;
+        font-size: 1rem;
+
+    }
+
+    .img {
+
+        max-width: 100%;
+        height: auto
     }
 }

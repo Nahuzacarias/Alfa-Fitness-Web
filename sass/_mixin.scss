@@ -1,3 +1,15 @@
+@mixin flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin centrado {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @mixin icono { 
     width: 1.5rem;
     margin-right: 1rem;
