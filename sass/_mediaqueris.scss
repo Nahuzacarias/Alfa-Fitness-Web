@@ -24,6 +24,7 @@
     }
 
 }
+
 @media screen and (max-width: 520px) {
 
     .mediaq {
@@ -36,9 +37,8 @@
 
     .cuadro1 {
         @include flexwrap;
+        
     }
-
-
 }
 
 @media screen and (max-width: 1050px) {
@@ -54,6 +54,7 @@
     .division__uno {
         @include centrado;
         font-size: 3rem;
+        margin-top: 40px;
     }
 
     .division__dos {
@@ -65,13 +66,40 @@
 @media screen and (max-width: 580px) {
     .division__uno {
         @include centrado;
-        font-size: 1rem;
 
     }
+
+    .fontsize {
+
+        font-size: 2rem;
+        margin-top: 40px;
+    }
+
 
     .img {
 
         max-width: 100%;
         height: auto
+    }
+
+    .back {
+
+        display: flex;
+        align-content: center;
+
+        .margin {
+
+            margin-top: 5rem;
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 380px){
+
+    .cuadro1{
+
+        height: auto;
     }
 }

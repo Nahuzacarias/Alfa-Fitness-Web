@@ -60,8 +60,8 @@
   width: 35rem; }
 
 .box5 {
-  background-color: rgba(218, 228, 219, 0.137);
-  color: black;
+  background-color: rgba(10, 10, 10, 0.322);
+  color: white;
   width: 93rem;
   padding: 5rem;
   box-sizing: border-box;
@@ -71,7 +71,8 @@
   text-align: center;
   border: 1px solid;
   box-shadow: 0 0 10px grey;
-  backdrop-filter: blur 80px; }
+  backdrop-filter: blur 80px;
+  font-weight: 500; }
   .box5 .nosotros_clase_titulo {
     display: flex;
     justify-content: center;
@@ -137,14 +138,17 @@
 .box1 {
   background: rgba(219, 247, 166, 0.842);
   color: black;
-  padding: 5rem;
+  padding: 3rem;
   box-sizing: border-box;
-  border-radius: 1rem;
+  border-radius: 2rem;
   font-size: 1.6rem;
   font-weight: 900;
   border: 1px solid;
-  box-shadow: 0 0 10px grey;
-  backdrop-filter: blur 80px; }
+  box-shadow: 0 0 10px gray;
+  backdrop-filter: blur 80px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  text-align: center; }
 
 .tittlebox_tittlebox2 {
   display: flex;
@@ -156,6 +160,12 @@
 .nav-item {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif; }
+
+.back {
+  background-color: white;
+  height: 77vh; }
+  .back .volver {
+    margin-top: 1rem; }
 
 .footer {
   font-family: 'Poppins', sans-serif;
@@ -228,7 +238,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem; }
+    font-size: 3rem;
+    margin-top: 40px; }
   .division__dos {
     margin-left: 1rem; } }
 
@@ -236,8 +247,19 @@
   .division__uno {
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 1rem; }
+    align-items: center; }
+  .fontsize {
+    font-size: 2rem;
+    margin-top: 40px; }
   .img {
     max-width: 100%;
+    height: auto; }
+  .back {
+    display: flex;
+    align-content: center; }
+    .back .margin {
+      margin-top: 5rem; } }
+
+@media screen and (max-width: 380px) {
+  .cuadro1 {
     height: auto; } }
